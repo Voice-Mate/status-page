@@ -1,3 +1,4 @@
+
 # Change these first
 owner: Voice-Mate # Your GitHub organization or username, where this repository lives
 repo: status-page # The name of this repository
@@ -25,12 +26,16 @@ status-website:
   introMessage: This is the status page for Voice Mate. It shows any downtime and opens an issue if there is downtime.
   theme: light
   css: "nav {background-color: #ffffff;}"
+  css: "body {background-color: #fafafa;}"
+
 
   navbar:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/$OWNER
+    - title: Homepage
+      href: https://voicemate.nl
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
