@@ -25,7 +25,6 @@ status-website:
   introTitle: "**Voicemate** Status page."
   introMessage: This is the status page for Voice Mate. It shows any downtime and opens an issue if there is downtime.
   theme: light
-  css: "nav {background-color: #ffffff;}"
   css: "body {background-color: #fafafa;}"
 
 
