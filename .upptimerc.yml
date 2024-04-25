@@ -12,6 +12,8 @@ sites:
     url: https://voicemate.nl/healthcheck
   - name: Voicemate reverse proxy
     url: https://voicemate.nl/nginx
+  - name: API Documentation
+    url: https://voicemate.nl/docs
   - name: Partner bland.ai
     url: https://www.bland.ai/
   - name: Partner twilio
