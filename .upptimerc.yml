@@ -8,8 +8,10 @@ assignees:
 sites:
   - name: Voice Mate Homepage
     url: https://voicemate.nl
-  - name: Voicemate webserver
-    url: https://voicemate.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/healthcheck
+  - name: Voicemate Server
+    url: https://voicemate.nl/healthcheck
+  - name: Voicemate reverse proxy
+    url: https://voicemate.nl/nginx
   - name: Partner bland.ai
     url: https://www.bland.ai/
   - name: Partner twilio
