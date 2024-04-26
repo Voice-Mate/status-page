@@ -9,9 +9,9 @@ sites:
   - name: Voice Mate Homepage
     url: https://voicemate.nl
   - name: Voicemate Server
-    url: https://voicemate.nl/healthcheck
+    url: https://voicemate.nl/aws/healthcheck/
   - name: Voicemate reverse proxy
-    url: https://voicemate.nl/nginx
+    url: https://voicemate.nl/healthcheck
   - name: API Documentation
     url: https://voicemate.nl/docs
   - name: Partner bland.ai
