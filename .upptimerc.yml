@@ -13,8 +13,14 @@ sites:
   - name: Voicemate reverse proxy
     url: https://voicemate.nl/healthcheck
   - name: Voicemate Available Phone numbers
-    url: https://triage.voicemate.nl/api/switchboard/available-phone-numbers/
+    url: https://voicemate.nl/api/switchboard/available-phone-numbers/
     __dangerous__body_down: "running low"
+  - name: Triage Mate Homepage
+    url: https://triage.voicemate.nl
+  - name: Triage Voicemate Server
+    url: https://triage.voicemate.nl/aws/healthcheck/
+  - name: Triage Voicemate reverse proxy
+    url: https://triage.voicemate.nl/healthcheck
   - name: API Documentation
     url: https://voicemate.nl/docs
   - name: Partner bland.ai
