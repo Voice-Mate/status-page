@@ -12,9 +12,6 @@ sites:
     url: https://voicemate.nl/aws/healthcheck/
   - name: Voicemate reverse proxy
     url: https://voicemate.nl/healthcheck
-  - name: Voicemate Available Phone numbers
-    url: https://voicemate.nl/api/switchboard/available-phone-numbers/
-    __dangerous__body_down: "running low"
   - name: Triage Mate Homepage
     url: https://triage.voicemate.nl
   - name: Triage Voicemate Server
@@ -23,10 +20,8 @@ sites:
     url: https://triage.voicemate.nl/healthcheck
   - name: API Documentation
     url: https://voicemate.nl/docs
-  - name: Partner bland.ai
-    url: https://www.bland.ai/
-  - name: Partner twilio
-    url: https://www.twilio.com/en-us
+  - name: TEST TEST
+    url: https://voicemate.nl/docs44444
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
