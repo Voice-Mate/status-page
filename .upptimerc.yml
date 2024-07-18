@@ -20,8 +20,6 @@ sites:
     url: https://triage.voicemate.nl/healthcheck
   - name: API Documentation
     url: https://voicemate.nl/docs
-  - name: TEST TEST
-    url: https://voicemate.nl/docs44444
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
