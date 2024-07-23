@@ -4,18 +4,19 @@
     "url": "https://voicemate.nl",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "voice-mate-homepage",
-    "status": "up",
-    "uptime": "99.26%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.27%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.26%",
+    "uptimeYear": "99.27%",
     "time": 779,
     "timeDay": 737,
     "timeWeek": 768,
     "timeMonth": 766,
     "timeYear": 779,
     "dailyMinutesDown": {
+      "2024-07-23": 0,
       "2024-04-20": 757,
       "2024-04-19": 244
     }
@@ -25,9 +26,9 @@
     "url": "https://voicemate.nl/aws/healthcheck/",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "voicemate-server",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -36,25 +37,28 @@
     "timeWeek": 126,
     "timeMonth": 124,
     "timeYear": 122,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-07-23": 0
+    }
   },
   {
     "name": "Voicemate reverse proxy",
     "url": "https://voicemate.nl/healthcheck",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "voicemate-reverse-proxy",
-    "status": "up",
-    "uptime": "99.06%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.07%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.06%",
+    "uptimeYear": "99.07%",
     "time": 116,
     "timeDay": 109,
     "timeWeek": 115,
     "timeMonth": 115,
     "timeYear": 116,
     "dailyMinutesDown": {
+      "2024-07-23": 0,
       "2024-04-26": 565,
       "2024-04-25": 631
     }
@@ -118,9 +122,9 @@
     "url": "https://voicemate.nl/docs",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "api-documentation",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -129,17 +133,19 @@
     "timeWeek": 132,
     "timeMonth": 127,
     "timeYear": 125,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-07-23": 0
+    }
   },
   {
     "name": "Voicemate Available Phone numbers",
     "url": "https://voicemate.nl/api/switchboard/available-phone-numbers/",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "voicemate-available-phone-numbers",
-    "status": "up",
+    "status": "down",
     "uptime": "0.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "48.81%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "69.58%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
     "time": 758,
@@ -148,6 +154,7 @@
     "timeMonth": 758,
     "timeYear": 758,
     "dailyMinutesDown": {
+      "2024-07-23": 0,
       "2024-07-18": 606,
       "2024-07-17": 1440,
       "2024-07-16": 1440,
