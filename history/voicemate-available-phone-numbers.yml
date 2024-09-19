@@ -1,7 +1,7 @@
 url: https://voicemate.nl/api/switchboard/available-phone-numbers/
-status: down
-code: 500
-responseTime: 26547
-lastUpdated: 2024-09-19T10:16:00.606Z
+status: up
+code: 200
+responseTime: 464
+lastUpdated: 2024-09-19T10:35:18.544Z
 startTime: 2024-07-18T09:37:15.761Z
 generator: Upptime <https://github.com/upptime/upptime>
