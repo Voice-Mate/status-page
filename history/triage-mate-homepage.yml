@@ -1,7 +1,7 @@
 url: https://triage.voicemate.nl
-status: down
-code: 503
-responseTime: 513
-lastUpdated: 2024-09-21T07:20:06.548Z
+status: up
+code: 200
+responseTime: 620
+lastUpdated: 2024-09-21T07:30:07.781Z
 startTime: 2024-07-09T11:36:07.202Z
 generator: Upptime <https://github.com/upptime/upptime>
