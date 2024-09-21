@@ -1,7 +1,7 @@
 url: https://triage.voicemate.nl/aws/healthcheck/
-status: up
-code: 200
-responseTime: 147
-lastUpdated: 2024-09-20T23:00:54.154Z
+status: down
+code: 503
+responseTime: 109
+lastUpdated: 2024-09-21T07:20:08.782Z
 startTime: 2024-07-09T11:36:08.122Z
 generator: Upptime <https://github.com/upptime/upptime>
