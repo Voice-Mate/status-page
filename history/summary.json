@@ -25,19 +25,19 @@
     "url": "https://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/fastapistatus",
     "icon": "https://icons.duckduckgo.com/ip3/prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com.ico",
     "slug": "fast-api",
-    "status": "down",
-    "uptime": "85.67%",
-    "uptimeDay": "85.67%",
-    "uptimeWeek": "85.67%",
-    "uptimeMonth": "85.67%",
-    "uptimeYear": "85.67%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "status": "up",
+    "uptime": "91.68%",
+    "uptimeDay": "91.68%",
+    "uptimeWeek": "91.68%",
+    "uptimeMonth": "91.68%",
+    "uptimeYear": "91.68%",
+    "time": 475,
+    "timeDay": 475,
+    "timeWeek": 475,
+    "timeMonth": 475,
+    "timeYear": 475,
     "dailyMinutesDown": {
-      "2024-09-26": 0
+      "2024-09-26": 1
     }
   },
   {
