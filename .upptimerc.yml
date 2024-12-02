@@ -6,16 +6,16 @@ assignees:
   - two-trick-pony-NL
 
 sites:
-  - name: API services (including mobile app)
+  - name: Website and Mobile App
     url: https://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/fastapistatus
     maxResponseTime: 3000
     __dangerous__body_degraded: "Offline for Maintenance"
-  - name: Load Balencer
+  - name: Networking and load balancer
     url: http://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/healthcheck
     maxResponseTime: 1000
   - name: AI Call Services
     url: https://status.vapi.ai
-    __dangerous__body_down_if_text_missing: 'All services are online111'
+    __dangerous__body_down_if_text_missing: 'All services are online'
 
 
 status-website:
