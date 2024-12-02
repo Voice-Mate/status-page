@@ -16,6 +16,9 @@ sites:
   - name: AI Call Services
     url: https://status.vapi.ai
     __dangerous__body_down_if_text_missing: 'All services are online'
+  - name: Billing and Payments
+    url: https://status.vapi.ai
+    __dangerous__body_down_if_text_missing: 'All systems operational'
 
 
 status-website:
