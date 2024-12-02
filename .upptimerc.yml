@@ -17,7 +17,7 @@ sites:
     url: https://status.vapi.ai
     __dangerous__body_down_if_text_missing: 'All services are online'
   - name: Billing and Payments
-    url: https://status.stripe.com/
+    url: https://status.stripe.com
     __dangerous__body_down_if_text_missing: 'All systems operational'
 
 
