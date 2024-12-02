@@ -6,13 +6,16 @@ assignees:
   - two-trick-pony-NL
 
 sites:
-  - name: FastAPI
+  - name: API services (including mobile app)
     url: https://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/fastapistatus
     maxResponseTime: 3000
     __dangerous__body_degraded: "Offline for Maintenance"
-  - name: Nginx
+  - name: Load Balencer
     url: http://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/healthcheck
     maxResponseTime: 1000
+  - name: AI Call Services
+    url: http://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/healthcheck
+    __dangerous__body_down_if_text_missing: 'All services are online111'
 
 
 status-website:
