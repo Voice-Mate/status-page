@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com.ico",
     "slug": "website-and-mobile-app",
     "status": "degraded",
-    "uptime": "6.33%",
-    "uptimeDay": "6.33%",
-    "uptimeWeek": "6.33%",
-    "uptimeMonth": "6.33%",
-    "uptimeYear": "6.33%",
+    "uptime": "4.54%",
+    "uptimeDay": "4.54%",
+    "uptimeWeek": "4.54%",
+    "uptimeMonth": "4.54%",
+    "uptimeYear": "4.54%",
     "time": 639,
     "timeDay": 639,
     "timeWeek": 639,
@@ -43,18 +43,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.vapi.ai.ico",
     "slug": "ai-call-services",
     "status": "up",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1011,
     "timeDay": 1011,
     "timeWeek": 1011,
     "timeMonth": 1011,
     "timeYear": 1011,
-    "dailyMinutesDown": {
-      "2024-12-02": 5
-    }
+    "dailyMinutesDown": {}
   }
 ]
