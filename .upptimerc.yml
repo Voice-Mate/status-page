@@ -11,7 +11,7 @@ sites:
     __dangerous__body_degraded: "Offline for Maintenance"
   - name: Networking and load balancer
     url: https://voicemate.nl/healthcheck
-  - name: Task Handling and cache
+  - name: Task Processor
     url: https://voicemate.nl/redisstatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
     maxResponseTime: 1000
