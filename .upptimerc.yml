@@ -16,7 +16,7 @@ sites:
     __dangerous__body_down_if_text_missing: '"status":"up"'
     maxResponseTime: 1000
   - name: Database
-    url: https://voicemate.nl/redisstatus
+    url: https://voicemate.nl/databasestatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: AI Call Services
     url: https://status.vapi.ai
