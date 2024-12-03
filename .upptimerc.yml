@@ -14,11 +14,13 @@ sites:
     url: http://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/healthcheck
   - name: Task Handling and cache
     url: http://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/redisstatus
+    __dangerous__body_down_if_text_missing: "status":"up"
     maxResponseTime: 1000
   - name: Domain Name Services (DNS)
     url: https://voicemate.nl
   - name: Database
     url: http://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/redisstatus
+    __dangerous__body_down_if_text_missing: "status":"up"
   - name: AI Call Services
     url: https://status.vapi.ai
     __dangerous__body_down_if_text_missing: 'All services are online'
