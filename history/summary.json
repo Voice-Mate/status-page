@@ -58,19 +58,19 @@
     "url": "https://voicemate.nl/databasestatus",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "database",
-    "status": "down",
-    "uptime": "92.25%",
-    "uptimeDay": "92.25%",
-    "uptimeWeek": "92.25%",
-    "uptimeMonth": "92.25%",
-    "uptimeYear": "92.25%",
-    "time": 127,
-    "timeDay": 127,
-    "timeWeek": 127,
-    "timeMonth": 127,
-    "timeYear": 127,
+    "status": "up",
+    "uptime": "75.79%",
+    "uptimeDay": "75.79%",
+    "uptimeWeek": "75.79%",
+    "uptimeMonth": "75.79%",
+    "uptimeYear": "75.79%",
+    "time": 173,
+    "timeDay": 173,
+    "timeWeek": 173,
+    "timeMonth": 173,
+    "timeYear": 173,
     "dailyMinutesDown": {
-      "2024-12-03": 2
+      "2024-12-03": 9
     }
   },
   {
