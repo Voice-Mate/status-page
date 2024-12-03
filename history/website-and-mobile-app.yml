@@ -1,7 +1,7 @@
-url: https://prod-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/fastapistatus
+url: https://voicemate.nl/fastapistatus
 status: up
 code: 200
-responseTime: 504
-lastUpdated: 2024-12-03T11:19:33.050Z
+responseTime: 425
+lastUpdated: 2024-12-03T11:25:07.708Z
 startTime: 2024-12-02T22:59:19.401Z
 generator: Upptime <https://github.com/upptime/upptime>
