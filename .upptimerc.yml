@@ -18,6 +18,12 @@ sites:
   - name: Database
     url: https://voicemate.nl/databasestatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Billing
+    url: https://voicemate.nl/stripestatus
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Call routing
+    url: https://voicemate.nl/twiliostatus
+    __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: AI Call Services (Vapi)
     url: https://status.vapi.ai
     __dangerous__body_down_if_text_missing: 'All services are online'
