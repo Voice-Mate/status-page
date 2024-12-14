@@ -21,6 +21,10 @@ sites:
   - name: Billing
     url: https://voicemate.nl/stripestatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Development/Test environment
+    url: https://triage-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/fastapistatus
+    maxResponseTime: 3000
+    __dangerous__body_degraded: "Offline for Maintenance"
   - name: Call routing
     url: https://voicemate.nl/twiliostatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
