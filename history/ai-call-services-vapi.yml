@@ -1,7 +1,7 @@
 url: https://status.vapi.ai
-status: up
+status: degraded
 code: 200
-responseTime: 1378
-lastUpdated: 2024-12-19T19:44:53.034Z
+responseTime: 941
+lastUpdated: 2024-12-19T21:36:42.374Z
 startTime: 2024-12-12T19:57:58.558Z
 generator: Upptime <https://github.com/upptime/upptime>
