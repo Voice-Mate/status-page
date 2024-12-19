@@ -30,10 +30,13 @@ sites:
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: AI Call Services (Vapi)
     url: https://status.vapi.ai
-    __dangerous__body_down_if_text_missing: 'All services are online'
+    __dangerous__body_degraded_if_text_missing: 'All services are online'
   - name: Large Language Model (OpenAI)
     url: https://status.openai.com/
-    __dangerous__body_down_if_text_missing: 'All Systems Operational'
+    __dangerous__body_degraded_if_text_missing: 'All Systems Operational'
+  - name: Usage Analytics (Mixpanel)
+    url: https://www.mixpanelstatus.com/
+    __dangerous__body_degraded_if_text_missing: 'All Systems Operational'
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
