@@ -5,34 +5,34 @@ assignees:
   - two-trick-pony-NL
 
 sites:
-  - name: Website and Mobile App (API)
+  - name: Voice Mate Application API
     url: https://voicemate.nl/fastapistatus
     maxResponseTime: 3000
     __dangerous__body_degraded: "Offline for Maintenance"
-  - name: Networking and load balancer (nginx)
+  - name: Reverse Proxy (nginx) 
     url: https://voicemate.nl/healthcheck
-  - name: Redis
+  - name: Persistent Database Server (DynamoDB)
+    url: https://voicemate.nl/databasestatus
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: In-Memory Database Server(Redis)
     url: https://voicemate.nl/redisstatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
     maxResponseTime: 1000
-  - name: Task Queue 
+  - name: Background Task Queue/Worker
     url: https://voicemate.nl/failed_tasks
     __dangerous__body_down_if_text_missing: '"status":"up"'
     maxResponseTime: 1000
-  - name: Database
-    url: https://voicemate.nl/databasestatus
-    __dangerous__body_down_if_text_missing: '"status":"up"'
-  - name: Billing
+  - name: Payment Services (Stripe)
     url: https://voicemate.nl/stripestatus
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Phone Call Handling (Twilio)
+    url: https://voicemate.nl/twiliostatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: Development/Test environment
     url: https://triage-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/fastapistatus
     maxResponseTime: 3000
     __dangerous__body_degraded: "Offline for Maintenance"
-  - name: Call routing
-    url: https://voicemate.nl/twiliostatus
-    __dangerous__body_down_if_text_missing: '"status":"up"'
-  - name: AI Call Services (Vapi)
+  - name: AI-Powered Voice Processing Services (Vapi)
     url: https://status.vapi.ai
     __dangerous__body_degraded_if_text_missing: 'All services are online'
   - name: Large Language Model (OpenAI)
