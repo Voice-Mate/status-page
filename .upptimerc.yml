@@ -11,8 +11,12 @@ sites:
     __dangerous__body_degraded: "Offline for Maintenance"
   - name: Networking and load balancer (nginx)
     url: https://voicemate.nl/healthcheck
-  - name: Task Processor (Redis)
+  - name: Redis
     url: https://voicemate.nl/redisstatus
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+    maxResponseTime: 1000
+  - name: Task Queue 
+    url: https://voicemate.nl/failed_tasks
     __dangerous__body_down_if_text_missing: '"status":"up"'
     maxResponseTime: 1000
   - name: Database
