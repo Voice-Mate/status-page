@@ -1,7 +1,7 @@
 url: https://status.openai.com/
-status: up
+status: degraded
 code: 200
-responseTime: 248
-lastUpdated: 2025-02-02T23:00:38.215Z
+responseTime: 151
+lastUpdated: 2025-02-03T21:41:17.322Z
 startTime: 2024-12-12T19:54:07.228Z
 generator: Upptime <https://github.com/upptime/upptime>
