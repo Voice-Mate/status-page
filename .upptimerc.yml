@@ -28,6 +28,9 @@ sites:
   - name: Phone Call Handling (Twilio)
     url: https://voicemate.nl/twiliostatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Reconsilliation between Stripe, Twilio and Database
+    url: https://voicemate.nl/databases_in_sync
+    __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: Development/Test environment
     url: https://triage-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/fastapistatus
     maxResponseTime: 3000
