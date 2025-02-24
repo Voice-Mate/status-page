@@ -1,7 +1,7 @@
 url: https://www.mixpanelstatus.com/
-status: degraded
-code: 405
-responseTime: 144
-lastUpdated: 2025-02-24T09:43:19.212Z
+status: up
+code: 200
+responseTime: 651
+lastUpdated: 2025-02-24T09:58:29.005Z
 startTime: 2024-12-19T19:44:54.125Z
 generator: Upptime <https://github.com/upptime/upptime>
