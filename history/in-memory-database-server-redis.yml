@@ -1,7 +1,7 @@
 url: https://voicemate.nl/redisstatus
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-03-02T21:47:42.345Z
+status: up
+code: 200
+responseTime: 99
+lastUpdated: 2025-03-02T21:50:47.727Z
 startTime: 2025-01-22T21:38:33.319Z
 generator: Upptime <https://github.com/upptime/upptime>
