@@ -1,7 +1,7 @@
 url: https://voicemate.nl/failed_tasks
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-03-02T21:49:14.210Z
+status: up
+code: 200
+responseTime: 103
+lastUpdated: 2025-03-02T21:50:49.581Z
 startTime: 2025-01-22T21:38:33.872Z
 generator: Upptime <https://github.com/upptime/upptime>
