@@ -1,7 +1,7 @@
 url: https://voicemate.nl/stripestatus
-status: down
-code: 503
-responseTime: 94
-lastUpdated: 2025-03-03T10:05:22.637Z
+status: up
+code: 200
+responseTime: 574
+lastUpdated: 2025-03-03T10:10:38.457Z
 startTime: 2025-01-22T21:38:34.408Z
 generator: Upptime <https://github.com/upptime/upptime>
