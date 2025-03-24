@@ -1,7 +1,7 @@
 url: https://triage-voicemate-backend.sou81r6ngg1is.eu-central-1.cs.amazonlightsail.com/fastapistatus
-status: degraded
+status: down
 code: 502
-responseTime: 3699
-lastUpdated: 2025-03-24T13:52:20.002Z
+responseTime: 816
+lastUpdated: 2025-03-24T13:59:46.467Z
 startTime: 2024-12-14T20:21:41.792Z
 generator: Upptime <https://github.com/upptime/upptime>
