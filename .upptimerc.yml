@@ -25,6 +25,9 @@ sites:
   - name: Payment Services (Stripe)
     url: https://voicemate.nl/stripestatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Issues and Errors (Sentry)
+    url: https://voicemate.nl/sentry_issues
+    __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: Phone Call Handling (Twilio)
     url: https://voicemate.nl/twiliostatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
