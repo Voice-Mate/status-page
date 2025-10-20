@@ -1,7 +1,7 @@
 url: https://voicemate.nl/databases_in_sync
-status: down
-code: 500
-responseTime: 1135
-lastUpdated: 2025-10-20T17:58:31.047Z
+status: up
+code: 200
+responseTime: 2606
+lastUpdated: 2025-10-20T18:12:05.448Z
 startTime: 2025-02-11T20:11:39.485Z
 generator: Upptime <https://github.com/upptime/upptime>
