@@ -88,9 +88,9 @@
     "slug": "background-task-queue-worker",
     "status": "down",
     "uptime": "80.50%",
-    "uptimeDay": "99.98%",
+    "uptimeDay": "98.08%",
     "uptimeWeek": "61.69%",
-    "uptimeMonth": "78.25%",
+    "uptimeMonth": "78.19%",
     "uptimeYear": "78.80%",
     "time": 130,
     "timeDay": 118,
@@ -98,7 +98,8 @@
     "timeMonth": 146,
     "timeYear": 130,
     "dailyMinutesDown": {
-      "2026-03-10": 0,
+      "2026-03-11": 24,
+      "2026-03-10": 4,
       "2026-03-08": 637,
       "2026-03-07": 1440,
       "2026-03-06": 1391,
@@ -292,8 +293,8 @@
     "uptime": "83.82%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "55.99%",
-    "uptimeYear": "88.50%",
+    "uptimeMonth": "56.05%",
+    "uptimeYear": "88.51%",
     "time": 1615,
     "timeDay": 2001,
     "timeWeek": 2104,
@@ -350,8 +351,7 @@
       "2025-03-16": 235,
       "2025-03-15": 65,
       "2025-03-13": 1336,
-      "2025-03-12": 1440,
-      "2025-03-11": 1440
+      "2025-03-12": 1440
     }
   },
   {
