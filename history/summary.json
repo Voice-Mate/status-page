@@ -11,13 +11,12 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 794,
-    "timeDay": 828,
-    "timeWeek": 737,
-    "timeMonth": 773,
-    "timeYear": 831,
+    "timeDay": 765,
+    "timeWeek": 754,
+    "timeMonth": 772,
+    "timeYear": 832,
     "dailyMinutesDown": {
-      "2025-03-21": 10,
-      "2025-03-17": 22
+      "2025-03-21": 10
     }
   },
   {
@@ -32,8 +31,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 119,
-    "timeDay": 92,
-    "timeWeek": 110,
+    "timeDay": 124,
+    "timeWeek": 115,
     "timeMonth": 113,
     "timeYear": 118,
     "dailyMinutesDown": {}
@@ -50,13 +49,12 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 186,
-    "timeDay": 133,
-    "timeWeek": 158,
+    "timeDay": 166,
+    "timeWeek": 163,
     "timeMonth": 196,
     "timeYear": 184,
     "dailyMinutesDown": {
-      "2025-03-21": 8,
-      "2025-03-17": 8
+      "2025-03-21": 8
     }
   },
   {
@@ -71,14 +69,13 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 184,
-    "timeDay": 97,
-    "timeWeek": 120,
+    "timeDay": 130,
+    "timeWeek": 125,
     "timeMonth": 122,
     "timeYear": 192,
     "dailyMinutesDown": {
       "2025-08-14": 19,
-      "2025-03-21": 6,
-      "2025-03-17": 7
+      "2025-03-21": 6
     }
   },
   {
@@ -87,16 +84,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "background-task-queue-worker",
     "status": "up",
-    "uptime": "80.43%",
+    "uptime": "80.48%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "81.94%",
     "uptimeMonth": "75.74%",
     "uptimeYear": "78.46%",
     "time": 130,
-    "timeDay": 97,
-    "timeWeek": 122,
+    "timeDay": 130,
+    "timeWeek": 124,
     "timeMonth": 145,
-    "timeYear": 129,
+    "timeYear": 130,
     "dailyMinutesDown": {
       "2026-03-14": 406,
       "2026-03-13": 849,
@@ -216,8 +213,7 @@
       "2025-03-21": 488,
       "2025-03-20": 1440,
       "2025-03-19": 1440,
-      "2025-03-18": 1440,
-      "2025-03-17": 93
+      "2025-03-18": 1440
     }
   },
   {
@@ -232,13 +228,12 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 529,
-    "timeDay": 556,
+    "timeDay": 486,
     "timeWeek": 519,
-    "timeMonth": 517,
+    "timeMonth": 519,
     "timeYear": 527,
     "dailyMinutesDown": {
-      "2025-08-14": 19,
-      "2025-03-17": 4
+      "2025-08-14": 19
     }
   },
   {
@@ -252,11 +247,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.92%",
-    "time": 1542,
-    "timeDay": 1553,
-    "timeWeek": 1436,
+    "time": 1537,
+    "timeDay": 607,
+    "timeWeek": 1321,
     "timeMonth": 1124,
-    "timeYear": 1542,
+    "timeYear": 1537,
     "dailyMinutesDown": {
       "2025-12-04": 86,
       "2025-12-03": 19,
@@ -276,14 +271,13 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 286,
-    "timeDay": 226,
-    "timeWeek": 272,
+    "timeDay": 275,
+    "timeWeek": 271,
     "timeMonth": 260,
-    "timeYear": 284,
+    "timeYear": 283,
     "dailyMinutesDown": {
       "2025-10-20": 106,
-      "2025-08-14": 19,
-      "2025-03-17": 3
+      "2025-08-14": 19
     }
   },
   {
@@ -292,15 +286,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "reconsilliation-between-stripe-twilio-and-database",
     "status": "up",
-    "uptime": "84.02%",
+    "uptime": "84.06%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "72.50%",
-    "uptimeYear": "89.32%",
-    "time": 1621,
-    "timeDay": 1573,
-    "timeWeek": 2089,
-    "timeMonth": 2112,
+    "uptimeMonth": "73.68%",
+    "uptimeYear": "89.37%",
+    "time": 1622,
+    "timeDay": 2113,
+    "timeWeek": 2118,
+    "timeMonth": 2124,
     "timeYear": 1564,
     "dailyMinutesDown": {
       "2026-02-25": 1221,
@@ -348,8 +342,7 @@
       "2025-08-15": 1440,
       "2025-08-14": 563,
       "2025-04-18": 16,
-      "2025-03-19": 16,
-      "2025-03-17": 1332
+      "2025-03-19": 16
     }
   },
   {
@@ -363,10 +356,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "98.18%",
-    "time": 1864,
-    "timeDay": 803,
-    "timeWeek": 843,
-    "timeMonth": 837,
+    "time": 1863,
+    "timeDay": 777,
+    "timeWeek": 825,
+    "timeMonth": 834,
     "timeYear": 2090,
     "dailyMinutesDown": {
       "2025-10-02": 622,
@@ -394,11 +387,11 @@
     "uptimeWeek": "99.80%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.71%",
-    "time": 1817,
-    "timeDay": 1708,
-    "timeWeek": 2013,
-    "timeMonth": 1952,
-    "timeYear": 1862,
+    "time": 1816,
+    "timeDay": 1333,
+    "timeWeek": 1959,
+    "timeMonth": 1953,
+    "timeYear": 1863,
     "dailyMinutesDown": {
       "2026-03-12": 20,
       "2026-02-03": 20,
