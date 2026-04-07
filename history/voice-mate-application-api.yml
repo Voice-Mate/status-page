@@ -1,7 +1,7 @@
 url: https://voicemate.nl/fastapistatus
-status: up
+status: degraded
 code: 200
-responseTime: 857
-lastUpdated: 2026-04-06T23:07:50.894Z
+responseTime: 24432
+lastUpdated: 2026-04-07T05:59:43.791Z
 startTime: 2025-01-22T21:38:30.988Z
 generator: Upptime <https://github.com/upptime/upptime>
