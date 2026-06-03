@@ -4,19 +4,20 @@
     "url": "https://voicemate.nl/fastapistatus",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "voice-mate-application-api",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "97.58%",
+    "uptimeWeek": "99.65%",
+    "uptimeMonth": "99.92%",
     "uptimeYear": "99.99%",
-    "time": 850,
+    "time": 851,
     "timeDay": 615,
     "timeWeek": 793,
     "timeMonth": 797,
     "timeYear": 878,
     "dailyMinutesDown": {
-      "2026-04-07": 43
+      "2026-04-07": 43,
+      "2026-06-03": 35
     }
   },
   {
@@ -24,55 +25,60 @@
     "url": "https://voicemate.nl/healthcheck",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "reverse-proxy-nginx",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptimeDay": "98.07%",
+    "uptimeWeek": "99.72%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.99%",
     "time": 138,
     "timeDay": 378,
     "timeWeek": 438,
     "timeMonth": 418,
     "timeYear": 144,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-03": 28
+    }
   },
   {
     "name": "Persistent Database Server (DynamoDB)",
     "url": "https://voicemate.nl/databasestatus",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "persistent-database-server-dynamo-db",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "98.57%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "99.95%",
     "uptimeYear": "100.00%",
     "time": 204,
     "timeDay": 414,
     "timeWeek": 470,
     "timeMonth": 494,
     "timeYear": 209,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-03": 21
+    }
   },
   {
     "name": "In-Memory Database Server(Redis)",
     "url": "https://voicemate.nl/redisstatus",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "in-memory-database-server-redis",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptimeDay": "99.06%",
+    "uptimeWeek": "99.87%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
     "time": 196,
     "timeDay": 312,
     "timeWeek": 478,
     "timeMonth": 445,
     "timeYear": 191,
     "dailyMinutesDown": {
-      "2025-08-14": 19
+      "2025-08-14": 19,
+      "2026-06-03": 13
     }
   },
   {
@@ -81,7 +87,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "background-task-queue-worker",
     "status": "down",
-    "uptime": "74.11%",
+    "uptime": "74.10%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "17.20%",
@@ -227,7 +233,7 @@
       "2026-05-13": 1440,
       "2026-05-12": 1440,
       "2026-05-11": 193,
-      "2026-06-03": 59,
+      "2026-06-03": 132,
       "2026-06-02": 1440,
       "2026-06-01": 1440,
       "2026-05-31": 1440,
@@ -247,10 +253,10 @@
     "url": "https://voicemate.nl/stripestatus",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.nl.ico",
     "slug": "payment-services-stripe",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 539,
@@ -259,7 +265,8 @@
     "timeMonth": 803,
     "timeYear": 542,
     "dailyMinutesDown": {
-      "2025-08-14": 19
+      "2025-08-14": 19,
+      "2026-06-03": 2
     }
   },
   {
