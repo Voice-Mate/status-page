@@ -1,7 +1,7 @@
 url: https://voicemate.nl/healthcheck
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-06-03T01:43:48.051Z
+status: up
+code: 200
+responseTime: 624
+lastUpdated: 2026-06-03T02:28:43.713Z
 startTime: 2025-01-22T21:38:32.072Z
 generator: Upptime <https://github.com/upptime/upptime>
