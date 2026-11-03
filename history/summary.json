@@ -6,8 +6,8 @@
     "slug": "voice-mate-application-api",
     "status": "degraded",
     "uptime": "99.98%",
-    "uptimeDay": "99.83%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "99.80%",
+    "uptimeWeek": "99.97%",
     "uptimeMonth": "99.99%",
     "uptimeYear": "99.97%",
     "time": 856,
@@ -20,7 +20,7 @@
       "2026-06-03": 52,
       "2026-08-03": 69,
       "2026-08-02": 10,
-      "2026-11-03": 2
+      "2026-11-03": 3
     }
   },
   {
@@ -29,11 +29,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.us.ico",
     "slug": "voice-mate-database",
     "status": "degraded",
-    "uptime": "28.82%",
-    "uptimeDay": "28.82%",
-    "uptimeWeek": "28.82%",
-    "uptimeMonth": "28.82%",
-    "uptimeYear": "28.82%",
+    "uptime": "20.82%",
+    "uptimeDay": "20.82%",
+    "uptimeWeek": "20.82%",
+    "uptimeMonth": "20.82%",
+    "uptimeYear": "20.82%",
     "time": 711,
     "timeDay": 711,
     "timeWeek": 711,
@@ -50,8 +50,8 @@
     "slug": "phone-call-handling-twilio",
     "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "99.84%",
-    "uptimeWeek": "99.98%",
+    "uptimeDay": "99.82%",
+    "uptimeWeek": "99.97%",
     "uptimeMonth": "98.47%",
     "uptimeYear": "99.87%",
     "time": 396,
@@ -62,7 +62,7 @@
     "dailyMinutesDown": {
       "2026-08-03": 29,
       "2026-10-10": 666,
-      "2026-11-03": 2
+      "2026-11-03": 3
     }
   },
   {
