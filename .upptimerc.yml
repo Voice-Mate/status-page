@@ -6,14 +6,15 @@ assignees:
 
 sites:
   - name: Voice Mate Application API
-    url: https://voicemate.nl/fastapistatus
+    url: https://voicemate.us/healthcheck
+    maxResponseTime: 3000
+    __dangerous__body_degraded: "Offline for Maintenance"
+  - name: Voice Mate Database
+    url: https://voicemate.us/databasestatus
     maxResponseTime: 3000
     __dangerous__body_degraded: "Offline for Maintenance"
   - name: Phone Call Handling (Twilio)
     url: https://voicemate.nl/twiliostatus
-    __dangerous__body_down_if_text_missing: '"status":"up"'
-  - name: Reconsilliation between Stripe, Twilio and Database
-    url: https://voicemate.nl/databases_in_sync
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: AI-Powered Voice Processing Services (Vapi)
     url: https://status.vapi.ai
