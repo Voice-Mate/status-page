@@ -1,7 +1,7 @@
 url: https://voicemate.nl/twiliostatus
-status: up
+status: down
 code: 200
-responseTime: 733
-lastUpdated: 2026-11-03T03:45:10.469Z
+responseTime: 500
+lastUpdated: 2026-11-03T18:06:39.458Z
 startTime: 2025-01-22T21:38:35.390Z
 generator: Upptime <https://github.com/upptime/upptime>
