@@ -9,25 +9,6 @@ sites:
     url: https://voicemate.nl/fastapistatus
     maxResponseTime: 3000
     __dangerous__body_degraded: "Offline for Maintenance"
-  - name: Reverse Proxy (nginx) 
-    url: https://voicemate.nl/healthcheck
-  - name: Persistent Database Server (DynamoDB)
-    url: https://voicemate.nl/databasestatus
-    __dangerous__body_down_if_text_missing: '"status":"up"'
-  - name: In-Memory Database Server(Redis)
-    url: https://voicemate.nl/redisstatus
-    __dangerous__body_down_if_text_missing: '"status":"up"'
-    maxResponseTime: 1000
-  - name: Background Task Queue/Worker
-    url: https://voicemate.nl/failed_tasks
-    __dangerous__body_down_if_text_missing: '"status":"up"'
-    maxResponseTime: 1000
-  - name: Payment Services (Stripe)
-    url: https://voicemate.nl/stripestatus
-    __dangerous__body_down_if_text_missing: '"status":"up"'
-  - name: Issues and Errors (Sentry)
-    url: https://voicemate.nl/sentry_issues
-    __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: Phone Call Handling (Twilio)
     url: https://voicemate.nl/twiliostatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
@@ -56,7 +37,7 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER
     - title: Homepage
-      href: https://voicemate.nl
+      href: https://voicemate.us
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
