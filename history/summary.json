@@ -28,19 +28,20 @@
     "url": "https://voicemate.us/databasestatus",
     "icon": "https://icons.duckduckgo.com/ip3/voicemate.us.ico",
     "slug": "voice-mate-database",
-    "status": "up",
-    "uptime": "99.11%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.11%",
-    "uptimeMonth": "99.11%",
-    "uptimeYear": "99.11%",
-    "time": 597,
-    "timeDay": 721,
-    "timeWeek": 597,
-    "timeMonth": 597,
-    "timeYear": 597,
+    "status": "down",
+    "uptime": "99.21%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.21%",
+    "uptimeMonth": "99.21%",
+    "uptimeYear": "99.21%",
+    "time": 588,
+    "timeDay": 619,
+    "timeWeek": 588,
+    "timeMonth": 588,
+    "timeYear": 588,
     "dailyMinutesDown": {
-      "2026-11-03": 70
+      "2026-11-03": 70,
+      "2026-11-09": 0
     }
   },
   {
