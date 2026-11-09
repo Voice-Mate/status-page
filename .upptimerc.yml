@@ -68,8 +68,67 @@ status-website:
     opened here and closed when it is fixed.
   theme: light
   css: |
-    body { background-color: #fafafa; }
+    :root {
+      --vm-bg: #f5f7fb;
+      --vm-card: #ffffff;
+      --vm-text: #0f1b2d;
+      --vm-muted: #5b677a;
+      --vm-line: #e3e8f0;
+      --vm-accent: #3b6cf6;
+      --vm-ok: #20bf6b;
+      --vm-warn: #f5a623;
+      --vm-bad: #eb3b5a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --vm-bg: #0e1522;
+        --vm-card: #16202f;
+        --vm-text: #e8eef8;
+        --vm-muted: #93a1b8;
+        --vm-line: #25324a;
+        --vm-accent: #7b9cff;
+      }
+    }
+    body { background: var(--vm-bg); color: var(--vm-text); font-family: Inter, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    a { color: var(--vm-accent); }
     .container { max-width: 880px; }
+
+    nav { background: var(--vm-card) !important; box-shadow: 0 1px 0 var(--vm-line); }
+    nav a { color: var(--vm-text); }
+    nav a:hover { color: var(--vm-accent); }
+    nav .logo div { font-weight: 700; letter-spacing: -0.01em; }
+    nav .logo img { border-radius: 9px; }
+
+    header h1 { font-size: 2.1rem; letter-spacing: -0.02em; }
+    header .lead { color: var(--vm-muted); font-size: 1.05rem; line-height: 1.6; }
+    h2, h3, h4 { color: var(--vm-text); }
+    h2 { font-weight: 650; letter-spacing: -0.01em; }
+
+    article {
+      background-color: var(--vm-card) !important;
+      color: var(--vm-text);
+      border: 1px solid var(--vm-line);
+      border-left-width: 4px;
+      border-radius: 12px !important;
+      box-shadow: 0 1px 2px rgba(15, 27, 45, 0.05);
+    }
+    article.up { border-left-color: var(--vm-ok) !important; }
+    article.degraded { border-left-color: var(--vm-warn) !important; }
+    article.down { border-left-color: var(--vm-bad) !important; }
+    .live-status article { margin-bottom: 14px; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+    .live-status article.link:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(15, 27, 45, 0.1); }
+    .live-status article h4 { font-weight: 650; }
+    .live-status article .icon { border-radius: 4px; }
+
+    article a, article h4, .live-status a { color: var(--vm-text) !important; }
+
+    footer, footer p { color: var(--vm-muted); }
+    footer a { color: var(--vm-accent); }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.7rem; }
+      article { border-radius: 10px !important; }
+    }
   metaTags:
     - name: description
       content: Live status and incident history of Voice Mate, the AI voicemail assistant.
