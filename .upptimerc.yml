@@ -13,6 +13,10 @@ sites:
     url: https://voicemate.us/databasestatus
     maxResponseTime: 3000
     __dangerous__body_degraded: "Offline for Maintenance"
+  - name: Voice Mate Background Processing
+    url: https://voicemate.us/pipelinestatus
+    maxResponseTime: 3000
+    __dangerous__body_down_if_text_missing: '"status": "up"'
   - name: Phone Call Handling (Twilio)
     url: https://voicemate.nl/twiliostatus
     __dangerous__body_down_if_text_missing: '"status":"up"'
