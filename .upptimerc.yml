@@ -19,7 +19,7 @@ sites:
     __dangerous__body_down_if_text_missing: '"status": "up"'
   - name: Phone Call Handling (Twilio)
     url: https://voicemate.nl/twiliostatus
-    __dangerous__body_down_if_text_missing: '"status":"up"'
+    __dangerous__body_down_if_text_missing: '"status": "up"'
   - name: AI-Powered Voice Processing Services (Vapi)
     url: https://status.vapi.ai
 
