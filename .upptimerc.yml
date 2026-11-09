@@ -75,7 +75,7 @@ status-website:
       --vm-muted: #5b677a;
       --vm-line: #e3e8f0;
       --vm-accent: #3b6cf6;
-      --vm-ok: #20bf6b;
+      --vm-ok: #3b82f6; /* "up" is blue, not green */
       --vm-warn: #f5a623;
       --vm-bad: #eb3b5a;
     }
@@ -121,6 +121,22 @@ status-website:
     .live-status article .icon { border-radius: 4px; }
 
     article a, article h4, .live-status a { color: var(--vm-text) !important; }
+
+    /* The graphs are green PNGs made by Upptime: turn them blue. The card's own background image is moved to a layer on
+       top of it, because a filter on the card itself would tint the text too. */
+    .live-status article.graph { background-image: none !important; }
+    .live-status article.graph::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: var(--background) 100% 50% / contain no-repeat;
+      filter: hue-rotate(55deg) saturate(1.7);
+      pointer-events: none;
+      border-radius: inherit;
+    }
+    .live-status article.graph > * { position: relative; z-index: 1; }
+    img[src*="/graphs/"] { filter: hue-rotate(55deg) saturate(1.7); }
+    nav a { border-bottom-color: var(--vm-ok) !important; }
 
     footer, footer p { color: var(--vm-muted); }
     footer a { color: var(--vm-accent); }
